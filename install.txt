@@ -1,0 +1,13 @@
+To install terraform go to this site:- https://developer.hashicorp.com/terraform/downloads
+
+download binary unzip that or extarct that binary copy the terraform into c drive 
+
+After that go to settings----> view advanced system settings ----> env variable ---> path ----> copy path of terrform binary---->click on new ----> add the path and save 
+
+
+#!/bin/bash
+sudo yum update -y
+sudo yum install httpd -y
+sudo systemctl enable httpd
+sudo systemctl start httpd
+echo "<html><body><div>Welcome to smarttechsolutions ! AWS Infra created using Terraform</div></body></html>" > /var/www/html/index.html
